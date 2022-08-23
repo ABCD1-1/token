@@ -5,14 +5,16 @@ A React (draft) application is included in this project to observe the amount of
 Steps:
 
 0.a In the CLI, run the following command to start a local node:
+npx hardhat compile
+
+0.b In the CLI, run the following command to start a local node:
 npx hardhat node
 
-0.b Copy the private key of the Account 0
+0.c Copy the private key of the Account 0
 
-0.c Get connected on MetaMask, select the localhost 8545 network
+0.d Get connected on MetaMask, select the localhost 8545 network
 
-0.d Click on import an account and paste the private key copied previously
-
+0.e Click on import an account and paste the private key copied previously
 
 1. In a new CLI, run the following command:
 npx hardhat run .\scripts\deploy.js --network localhost
